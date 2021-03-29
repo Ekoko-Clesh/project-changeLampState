@@ -1,5 +1,6 @@
 let buttons = document.getElementById("buttons").addEventListener("click", function(Event) {
   changeState[Event.target.id]();
+alert(“ola”);
 });
 
 //OBJECTO CHANGESTATE
