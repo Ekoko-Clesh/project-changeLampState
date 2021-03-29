@@ -4,11 +4,11 @@ let buttons = document.getElementById("buttons").addEventListener("click", funct
 
 //OBJECTO CHANGESTATE
 let changeState = {
-    "ligar": () => imagem.src = "./img/ligada.jpg",
+    "ligar": () => imagem.src = "ligada.jpg",
   
-    "desligar" : () => imagem.src =  "./img/desligada.jpg",
+    "desligar" : () => imagem.src =  "desligada.jpg",
   
-    "quebrar" : () => imagem.src = "./img/quebrada.jpg",
+    "quebrar" : () => imagem.src = "quebrada.jpg",
 }
 
 function overMouse() {
