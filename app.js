@@ -4,7 +4,7 @@ let buttons = document.getElementById("buttons").addEventListener("click", funct
 
 //OBJECTO CHANGESTATE
 let changeState = {
-    "ligar": () => imagem.src = "ligada.jpg",
+    "ligar": () => imagem.src = "./ligada.jpg",
   
     "desligar" : () => imagem.src =  "desligada.jpg",
   
